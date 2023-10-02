@@ -128,6 +128,17 @@ additional troubleshooting help. Note that you can also create your own
 [pre-built image](https://hub.docker.com/repository/docker/openfn/lightning)
 from Dockerhub.
 
+## Setup using Nix/Devenv
+
+Requirements:
+
+- Install [`devenv`](https://devenv.sh)
+
+```bash
+devenv ci
+devenv shell
+```
+
 ## **Deploy** on external infrastructure
 
 Head to the [Deploy](https://docs.openfn.org/documentation/deploy/options)

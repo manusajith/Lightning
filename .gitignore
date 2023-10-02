@@ -57,3 +57,8 @@ priv/openfn
 .elixir_ls
 
 .env
+
+# Devenv
+.devenv*
+devenv.local.nix
+
